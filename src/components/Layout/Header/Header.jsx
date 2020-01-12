@@ -9,8 +9,8 @@ const Header = () => {
     return (
         <div>
             <Navbar className="navigation-bar" fixed="top" bg="dark" variant="dark" >
-                <LinkContainer exact to="/">
-                    <Navbar.Brand href="/">
+                <LinkContainer exact to="/ulternative-ui/">
+                    <Navbar.Brand>
                         <img alt={`${applicationName} company logo`} src={Logo} width="30" height="30"/>
                     </Navbar.Brand>
                 </LinkContainer>
