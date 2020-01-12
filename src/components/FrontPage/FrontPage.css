@@ -1,7 +1,5 @@
 .front-page-call-to-action {
-    text-align: center;
-    background-position: center;
-    background-size: cover;
+    background-color: rgba(255, 255,255,0.7);
 }
 
 .front-page-browse-categories h2{
@@ -11,4 +9,14 @@
 .front-page-browse-categories h5{
     text-align: center;
     margin-top: 8vh;
+}
+
+.front-page-image-card {
+    height: 92vh;
+}
+
+.card-img-overlay {
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
