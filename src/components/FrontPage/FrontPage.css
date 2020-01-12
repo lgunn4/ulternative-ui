@@ -1,0 +1,14 @@
+.front-page-call-to-action {
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.front-page-browse-categories h2{
+    text-align: center;
+}
+
+.front-page-browse-categories h5{
+    text-align: center;
+    margin-top: 8vh;
+}
