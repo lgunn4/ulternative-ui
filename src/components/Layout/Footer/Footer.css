@@ -1,0 +1,29 @@
+.application-footer {
+    margin: 0;
+
+}
+
+.jumbotron {
+    margin: 0;
+}
+
+.col {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul a {
+    color: black;
+}
+
+.end-of-footer {
+    background-color: #e9ecef;
+}
+
+.end-of-footer p{
+    margin: 0;
+}
