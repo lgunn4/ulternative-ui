@@ -1,8 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from "./components/Layout/Header/Header";
 import Content from "./Content";
 import Footer from "./components/Layout/Footer/Footer";
+import Header from "./components/header/Header";
 
 function Layout() {
     return (
@@ -12,6 +12,6 @@ function Layout() {
             <Footer/>
         </div>
     );
-}
+};
 
 export default Layout;
