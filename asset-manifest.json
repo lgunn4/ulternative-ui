@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ulternative-ui/static/css/main.bd09aedb.chunk.css",
+    "main.js": "/ulternative-ui/static/js/main.c8ad9af6.chunk.js",
+    "main.js.map": "/ulternative-ui/static/js/main.c8ad9af6.chunk.js.map",
+    "runtime-main.js": "/ulternative-ui/static/js/runtime-main.16ee59b2.js",
+    "runtime-main.js.map": "/ulternative-ui/static/js/runtime-main.16ee59b2.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/ulternative-ui/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.c10465c5.chunk.js": "/ulternative-ui/static/js/2.c10465c5.chunk.js",
+    "static/js/2.c10465c5.chunk.js.map": "/ulternative-ui/static/js/2.c10465c5.chunk.js.map",
+    "index.html": "/ulternative-ui/index.html",
+    "precache-manifest.74c347543d9c57e6a421e6b0523f60f4.js": "/ulternative-ui/precache-manifest.74c347543d9c57e6a421e6b0523f60f4.js",
+    "service-worker.js": "/ulternative-ui/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "/ulternative-ui/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.bd09aedb.chunk.css.map": "/ulternative-ui/static/css/main.bd09aedb.chunk.css.map",
+    "static/js/2.c10465c5.chunk.js.LICENSE": "/ulternative-ui/static/js/2.c10465c5.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.16ee59b2.js",
+    "static/css/2.17e5ed98.chunk.css",
+    "static/js/2.c10465c5.chunk.js",
+    "static/css/main.bd09aedb.chunk.css",
+    "static/js/main.c8ad9af6.chunk.js"
+  ]
+}
