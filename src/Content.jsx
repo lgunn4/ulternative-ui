@@ -9,7 +9,7 @@ function Content() {
         <main>
             <div className='content'>
             <Switch>
-                <Route exact path="/" component={FrontPage}/>
+                <Route exact path="/ulternative-ui/" component={FrontPage}/>
             </Switch>
             </div>
         </main>
