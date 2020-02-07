@@ -12,7 +12,6 @@ export const fetchCategories = () => (dispatch) => {
         type: FETCH_CATEGORIES_STARTED,
     });
     getCategories().then(response => {
-        console.log(response);
         dispatch({
             type: FETCH_CATEGORIES_SUCCESS,
             payload: response,
@@ -27,4 +26,4 @@ export const fetchCategories = () => (dispatch) => {
             type: FETCH_CATEGORIES_ENDED
         })
     })
-}
+};

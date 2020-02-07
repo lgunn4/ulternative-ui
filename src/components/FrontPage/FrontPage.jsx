@@ -4,12 +4,13 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from "react-bootstrap/Button";
 import {applicationDescription, applicationName} from "../../assets/constants";
 import {Link} from "react-router-dom";
-import {mockCategoryData} from "../../assets/MockData/MockData";
 import CategoryCardDeck from "./CategoryCardDeck";
 import Card from "react-bootstrap/Card"
 import FrontPageBackground from '../../assets/background.jpg';
 
-const FrontPage = () => {
+const FrontPage = ({categories, fetchCategories}) => {
+    fetchCategories();
+
     return (
         <div>
             <Card className="bg-dark text-black">
@@ -29,7 +30,7 @@ const FrontPage = () => {
                 </Card.ImgOverlay>
             </Card>
 
-            <CategoryCardDeck categories={mockCategoryData.slice(0,4)} />
+            <CategoryCardDeck categories={categories.slice(0,4)} />
 
         </div>
 
