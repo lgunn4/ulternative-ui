@@ -1,30 +1,26 @@
 {
   "files": {
     "main.css": "/ulternative-ui/static/css/main.b39d6323.chunk.css",
-    "main.js": "/ulternative-ui/static/js/main.1169ef75.chunk.js",
-    "main.js.map": "/ulternative-ui/static/js/main.1169ef75.chunk.js.map",
+    "main.js": "/ulternative-ui/static/js/main.5ba3db06.chunk.js",
+    "main.js.map": "/ulternative-ui/static/js/main.5ba3db06.chunk.js.map",
     "runtime-main.js": "/ulternative-ui/static/js/runtime-main.16ee59b2.js",
     "runtime-main.js.map": "/ulternative-ui/static/js/runtime-main.16ee59b2.js.map",
     "static/css/2.17e5ed98.chunk.css": "/ulternative-ui/static/css/2.17e5ed98.chunk.css",
-    "static/js/2.50fea44a.chunk.js": "/ulternative-ui/static/js/2.50fea44a.chunk.js",
-    "static/js/2.50fea44a.chunk.js.map": "/ulternative-ui/static/js/2.50fea44a.chunk.js.map",
+    "static/js/2.720e9d28.chunk.js": "/ulternative-ui/static/js/2.720e9d28.chunk.js",
+    "static/js/2.720e9d28.chunk.js.map": "/ulternative-ui/static/js/2.720e9d28.chunk.js.map",
     "index.html": "/ulternative-ui/index.html",
-    "precache-manifest.ee5d81bfc4472048fdd5abe8c0727b51.js": "/ulternative-ui/precache-manifest.ee5d81bfc4472048fdd5abe8c0727b51.js",
+    "precache-manifest.3a10601c25d99e57ba1fb10b30da8bec.js": "/ulternative-ui/precache-manifest.3a10601c25d99e57ba1fb10b30da8bec.js",
     "service-worker.js": "/ulternative-ui/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/ulternative-ui/static/css/2.17e5ed98.chunk.css.map",
     "static/css/main.b39d6323.chunk.css.map": "/ulternative-ui/static/css/main.b39d6323.chunk.css.map",
-    "static/js/2.50fea44a.chunk.js.LICENSE": "/ulternative-ui/static/js/2.50fea44a.chunk.js.LICENSE",
-    "static/media/background.jpg": "/ulternative-ui/static/media/background.9ae3568c.jpg",
-    "static/media/bathroom.jpg": "/ulternative-ui/static/media/bathroom.9b1b713b.jpg",
-    "static/media/house.jpg": "/ulternative-ui/static/media/house.13adefc1.jpg",
-    "static/media/kitchen.jpg": "/ulternative-ui/static/media/kitchen.9164a007.jpg",
-    "static/media/outdoor.jpg": "/ulternative-ui/static/media/outdoor.13eacb8c.jpg"
+    "static/js/2.720e9d28.chunk.js.LICENSE": "/ulternative-ui/static/js/2.720e9d28.chunk.js.LICENSE",
+    "static/media/background.jpg": "/ulternative-ui/static/media/background.9ae3568c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.16ee59b2.js",
     "static/css/2.17e5ed98.chunk.css",
-    "static/js/2.50fea44a.chunk.js",
+    "static/js/2.720e9d28.chunk.js",
     "static/css/main.b39d6323.chunk.css",
-    "static/js/main.1169ef75.chunk.js"
+    "static/js/main.5ba3db06.chunk.js"
   ]
 }
