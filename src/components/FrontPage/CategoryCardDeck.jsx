@@ -9,7 +9,7 @@ const CategoryCardDeck = ({categories}) => {
     const categoryCards = categories.map(category => {
         return (
             <Card>
-                <Card.Img variant="top" src={category.categoryImg}/>
+                <Card.Img variant="top" src={category.categoryImage}/>
                 <Card.Body>
                     <Card.Title>{category.categoryName}</Card.Title>
                     <Card.Text>
@@ -28,7 +28,7 @@ const CategoryCardDeck = ({categories}) => {
             <CardDeck>
                 {categoryCards}
             </CardDeck>
-            <Link exact to="/expore"><h5>Explore More Categories</h5></Link>
+            <Link exact to="/explore"><h5>Explore More Categories</h5></Link>
         </Jumbotron>
     )
 };

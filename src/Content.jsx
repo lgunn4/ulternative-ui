@@ -2,7 +2,7 @@ import React from 'react';
 import './Content.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Route, Switch} from "react-router-dom";
-import FrontPage from "./components/FrontPage/FrontPage";
+import FrontPage from "./components/FrontPage/containers/FrontPage";
 
 function Content() {
     return (
