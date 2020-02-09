@@ -7,8 +7,4 @@ const mapdispatchToProps = (dispatch) => {
     return bindActionCreators({fetchCategories}, dispatch)
 };
 
-const mapStateToProps = (state) => {
-    return { categories: state.categories.data};
-};
-
-export default connect(mapStateToProps, mapdispatchToProps)(FrontPage);
+export default connect(null, mapdispatchToProps)(FrontPage);

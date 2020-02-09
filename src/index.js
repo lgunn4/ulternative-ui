@@ -8,14 +8,11 @@ import {applyMiddleware, compose, createStore} from "redux";
 import thunk from 'redux-thunk';
 import {ulternativeApplication} from "./redux/ulternativeApplication";
 import {createLogger} from "redux-logger";
-import {fetchCategories} from "./redux/actions/categoryActions";
 
 const logger = createLogger({ collapsed: true });
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const middleware = composeEnhancers(applyMiddleware(thunk, logger));
 const store = createStore(ulternativeApplication, middleware);
-
-store.dispatch(fetchCategories());
 
 ReactDOM.render(
     <Provider store={store}>
