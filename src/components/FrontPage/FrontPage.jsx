@@ -9,7 +9,6 @@ import Card from "react-bootstrap/Card"
 import FrontPageBackground from '../../assets/background.jpg';
 
 const FrontPage = ({categories, fetchCategories}) => {
-    fetchCategories();
 
     return (
         <div>

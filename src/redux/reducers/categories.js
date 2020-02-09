@@ -1,12 +1,19 @@
 import {FETCH_CATEGORIES_SUCCESS} from "../actions/ActionTypes";
 
-export function categoryStore(state = [], action) {
+const DEFAULT_STATE = {
+    loading: false,
+    data:    [],
+    errors:  null,
+};
+
+export function categoryStore(state = DEFAULT_STATE, action) {
     switch (action.type) {
         case FETCH_CATEGORIES_SUCCESS:
-            return [
+            return {
                 ...state,
-                ...action.payload
-            ];
+                loading: false,
+                data: action.payload,
+            };
         default:
             return state;
     }
