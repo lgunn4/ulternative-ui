@@ -1,35 +1,37 @@
 import React from "react";
-import CardDeck from "react-bootstrap/CardDeck";
-import {Link} from "react-router-dom";
-import Jumbotron from "react-bootstrap/Jumbotron";
 import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
+import { LinkContainer } from "react-router-bootstrap";
+import defaultImage from "../../assets/cardImage.svg";
+import "./card.css";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 
 const CategoryCardDeck = ({categories}) => {
     const categoryCards = categories.map(category => {
         return (
-            <Card>
-                <Card.Img variant="top" src={category.categoryImage}/>
-                <Card.Body>
-                    <Card.Title>{category.categoryName}</Card.Title>
-                    <Card.Text>
-                        {category.categoryDescription}
-                    </Card.Text>
-                    <Link exact to={`category/${category.categoryId}`}><Button variant="success">See {category.categoryName}</Button></Link>
-                </Card.Body>
-            </Card>
+            <Col sm='3'>
+                <LinkContainer exact to={`category/${category.categoryId}`}>
+                    <Card className="cardDeck">
+                        {category.categoryImage
+                            ? <Card.Img variant="top" src={category.categoryImage}/>
+                            : <Card.Img variant="top" src={defaultImage}/>
+                        }
+                        <Card.Body>
+                            <Card.Title>{category.categoryName}</Card.Title>
+                            <Card.Text>
+                                {category.categoryDescription}
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </LinkContainer>
+            </Col>
         )
     });
 
     return (
-        <Jumbotron className="front-page-browse-categories">
-            <h2>Browse Categories</h2>
-            <hr/>
-            <CardDeck>
+            <Row>
                 {categoryCards}
-            </CardDeck>
-            <Link exact to="/explore"><h5>Explore More Categories</h5></Link>
-        </Jumbotron>
+            </Row>
     )
 };
 

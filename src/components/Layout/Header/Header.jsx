@@ -14,7 +14,7 @@ const Header = () => {
                         <img alt={`${applicationName} company logo`} src={Logo} width="30" height="30"/>
                     </Navbar.Brand>
                 </LinkContainer>
-                <LinkContainer exact to="/">
+                <LinkContainer exact to="/ulternative-ui">
                     <Navbar.Brand>{applicationName}</Navbar.Brand>
                 </LinkContainer>
                 <Nav id='header-navigation' className="ml-auto">

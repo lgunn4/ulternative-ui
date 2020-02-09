@@ -1,0 +1,9 @@
+.cardDeck {
+    transition: transform .2s;
+    height: 55vh;
+}
+
+.cardDeck:hover {
+    transform: scale(0.95);
+    cursor: pointer;
+}
