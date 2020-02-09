@@ -33,10 +33,8 @@ const FrontPage = ({fetchCategories}) => {
             <Jumbotron className="front-page-browse-categories">
                 <h2>Browse Categories</h2>
                 <hr/>
-
-                    <LoadableCategoryCardDeck/>
-
-                <Link exact to="/explore"><h5>Explore More Categories</h5></Link>
+                <LoadableCategoryCardDeck limit={"4"}/>
+                <Link exact to="explore"><h5>Explore More Categories</h5></Link>
             </Jumbotron>
         </div>
 
