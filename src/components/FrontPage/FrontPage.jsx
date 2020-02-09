@@ -30,8 +30,14 @@ const FrontPage = ({fetchCategories}) => {
                 </Card.ImgOverlay>
             </Card>
 
-            <LoadableCategoryCardDeck/>
+            <Jumbotron className="front-page-browse-categories">
+                <h2>Browse Categories</h2>
+                <hr/>
 
+                    <LoadableCategoryCardDeck/>
+
+                <Link exact to="/explore"><h5>Explore More Categories</h5></Link>
+            </Jumbotron>
         </div>
 
     );

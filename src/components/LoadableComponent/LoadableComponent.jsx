@@ -5,7 +5,6 @@ import Col from "react-bootstrap/Col";
 import {BeatLoader} from "react-spinners";
 
 const LoadableComponent = ({isLoading, component}) => {
-    console.log(isLoading, component);
 
     if(isLoading) {
         return (
