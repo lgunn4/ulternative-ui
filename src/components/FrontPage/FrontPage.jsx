@@ -8,7 +8,7 @@ import Card from "react-bootstrap/Card"
 import FrontPageBackground from '../../assets/background.jpg';
 import LoadableCategoryCardDeck from "./containers/LoadableCategoryCardDeck";
 
-const FrontPage = ({fetchCategories}) => {
+const FrontPage = ({fetchCategories, fetchCategoryItems}) => {
     fetchCategories();
 
     return (
