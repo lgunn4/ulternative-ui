@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ulternative-ui/static/css/main.1c1cd580.chunk.css",
+    "main.css": "/ulternative-ui/static/css/main.e383733e.chunk.css",
     "main.js": "/ulternative-ui/static/js/main.280e65fe.chunk.js",
     "main.js.map": "/ulternative-ui/static/js/main.280e65fe.chunk.js.map",
     "runtime-main.js": "/ulternative-ui/static/js/runtime-main.16ee59b2.js",
@@ -9,10 +9,10 @@
     "static/js/2.525f487a.chunk.js": "/ulternative-ui/static/js/2.525f487a.chunk.js",
     "static/js/2.525f487a.chunk.js.map": "/ulternative-ui/static/js/2.525f487a.chunk.js.map",
     "index.html": "/ulternative-ui/index.html",
-    "precache-manifest.7d80b3599cfdd26a8a05681947a51100.js": "/ulternative-ui/precache-manifest.7d80b3599cfdd26a8a05681947a51100.js",
+    "precache-manifest.7ac551ae4d136aa329bb80ae1c152eaa.js": "/ulternative-ui/precache-manifest.7ac551ae4d136aa329bb80ae1c152eaa.js",
     "service-worker.js": "/ulternative-ui/service-worker.js",
     "static/css/2.9ff99f11.chunk.css.map": "/ulternative-ui/static/css/2.9ff99f11.chunk.css.map",
-    "static/css/main.1c1cd580.chunk.css.map": "/ulternative-ui/static/css/main.1c1cd580.chunk.css.map",
+    "static/css/main.e383733e.chunk.css.map": "/ulternative-ui/static/css/main.e383733e.chunk.css.map",
     "static/js/2.525f487a.chunk.js.LICENSE": "/ulternative-ui/static/js/2.525f487a.chunk.js.LICENSE",
     "static/media/background.jpg": "/ulternative-ui/static/media/background.9ae3568c.jpg",
     "static/media/cardImage.svg": "/ulternative-ui/static/media/cardImage.6458de00.svg"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.16ee59b2.js",
     "static/css/2.9ff99f11.chunk.css",
     "static/js/2.525f487a.chunk.js",
-    "static/css/main.1c1cd580.chunk.css",
+    "static/css/main.e383733e.chunk.css",
     "static/js/main.280e65fe.chunk.js"
   ]
 }
