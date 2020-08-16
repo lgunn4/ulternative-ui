@@ -6,11 +6,9 @@ import {applicationDescription, applicationName} from "../../assets/constants";
 import {Link} from "react-router-dom";
 import Card from "react-bootstrap/Card"
 import FrontPageBackground from '../../assets/background.jpg';
-import LoadableCategoryCardDeck from "./containers/LoadableCategoryCardDeck";
+import CategoryCardDeck from "./CategoryCardDeck";
 
-const FrontPage = ({fetchCategories}) => {
-    fetchCategories();
-
+const FrontPage = ({categories}) => {
     return (
         <div>
             <Card className="bg-dark text-black">
@@ -22,8 +20,8 @@ const FrontPage = ({fetchCategories}) => {
                             {applicationDescription}
                         </p>
                         <p>
-                            <Link exact to="/search" >
-                                <Button variant="success" href="/search">Start Searching</Button>
+                            <Link to="/search" >
+                                <Button variant="success">Start Searching</Button>
                             </Link>
                         </p>
                     </Jumbotron>
@@ -33,8 +31,8 @@ const FrontPage = ({fetchCategories}) => {
             <Jumbotron className="front-page-browse-categories">
                 <h2>Browse Categories</h2>
                 <hr/>
-                <LoadableCategoryCardDeck limit={"4"}/>
-                <Link exact to="explore"><h5>Explore More Categories</h5></Link>
+                <CategoryCardDeck categories={categories} limit={4}/>
+                <Link to="explore"><h5>Explore More Categories</h5></Link>
             </Jumbotron>
         </div>
 

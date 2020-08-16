@@ -1,12 +1,10 @@
 import React from 'react';
-import LoadableCategoryCardDeck from "../FrontPage/containers/LoadableCategoryCardDeck";
 import Jumbotron from "react-bootstrap/Jumbotron";
-import './explore.css';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import CategoryCardDeck from "../FrontPage/CategoryCardDeck";
 
-const ExplorePage = ({fetchCategories}) => {
-    fetchCategories();
+const ExplorePage = ({categories}) => {
 
     return (
         <Jumbotron>
@@ -14,7 +12,7 @@ const ExplorePage = ({fetchCategories}) => {
                 <Col lg="10">
                     <h1>{`Explore categories`}</h1>
                     <hr />
-                    <LoadableCategoryCardDeck/>
+                    <CategoryCardDeck categories={categories} limit={null}/>
                 </Col>
             </Row>
         </Jumbotron>

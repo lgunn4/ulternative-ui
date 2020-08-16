@@ -5,4 +5,4 @@ export const instagramLink = "https://instagram.com";
 export const facebookLink = "https://facebook.com";
 export const twitterLink = "https://twitter.com";
 
-export const API_URL = "http://localhost:8080";
+export const REACT_APP_BACKEND_URL = "https://ulternative-strapi.herokuapp.com";
