@@ -6,20 +6,21 @@ import "./card.css";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 
-const CategoryCardDeck = ({categories}) => {
+const CategoryCardDeck = ({categories, limit}) => {
+    categories = limit === null ? categories : categories.slice(0, limit);
     const categoryCards = categories.map(category => {
         return (
-            <Col sm='3'>
-                <LinkContainer exact to={`category/${category.categoryId}`}>
+            <Col sm='3' className="single-card" key={category.id}>
+                <LinkContainer exact to={`category/${category.id}`}>
                     <Card className="cardDeck">
-                        {category.categoryImage
-                            ? <Card.Img variant="top" src={category.categoryImage}/>
+                        {category.image
+                            ? <Card.Img variant="top" src={category.image.url}/>
                             : <Card.Img variant="top" src={defaultImage}/>
                         }
                         <Card.Body>
-                            <Card.Title>{category.categoryName}</Card.Title>
+                            <Card.Title>{category.name}</Card.Title>
                             <Card.Text>
-                                {category.categoryDescription}
+                                {category.description.slice(0, 150)}
                             </Card.Text>
                         </Card.Body>
                     </Card>
