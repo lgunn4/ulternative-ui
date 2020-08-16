@@ -1,5 +1,4 @@
 {
-  "homepage": "https://lgunn4.github.io/ulternative-ui",
   "name": "ulternative-ui",
   "version": "0.1.0",
   "private": true,
@@ -32,8 +31,6 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -57,8 +54,6 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.7.7",
-    "@babel/core": "^7.7.7",
-    "gh-pages": "^2.2.0",
-    "redux-devtools": "^3.5.0"
+    "@babel/core": "^7.7.7"
   }
 }
