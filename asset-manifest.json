@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/ulternative-ui/static/css/main.e383733e.chunk.css",
-    "main.js": "/ulternative-ui/static/js/main.280e65fe.chunk.js",
-    "main.js.map": "/ulternative-ui/static/js/main.280e65fe.chunk.js.map",
-    "runtime-main.js": "/ulternative-ui/static/js/runtime-main.16ee59b2.js",
-    "runtime-main.js.map": "/ulternative-ui/static/js/runtime-main.16ee59b2.js.map",
-    "static/css/2.9ff99f11.chunk.css": "/ulternative-ui/static/css/2.9ff99f11.chunk.css",
-    "static/js/2.525f487a.chunk.js": "/ulternative-ui/static/js/2.525f487a.chunk.js",
-    "static/js/2.525f487a.chunk.js.map": "/ulternative-ui/static/js/2.525f487a.chunk.js.map",
+    "main.css": "/ulternative-ui/static/css/main.dad7674a.chunk.css",
+    "main.js": "/ulternative-ui/static/js/main.dd876d6a.chunk.js",
+    "main.js.map": "/ulternative-ui/static/js/main.dd876d6a.chunk.js.map",
+    "runtime-main.js": "/ulternative-ui/static/js/runtime-main.809aa076.js",
+    "runtime-main.js.map": "/ulternative-ui/static/js/runtime-main.809aa076.js.map",
+    "static/css/2.11829350.chunk.css": "/ulternative-ui/static/css/2.11829350.chunk.css",
+    "static/js/2.56d5f78f.chunk.js": "/ulternative-ui/static/js/2.56d5f78f.chunk.js",
+    "static/js/2.56d5f78f.chunk.js.map": "/ulternative-ui/static/js/2.56d5f78f.chunk.js.map",
     "index.html": "/ulternative-ui/index.html",
-    "precache-manifest.7ac551ae4d136aa329bb80ae1c152eaa.js": "/ulternative-ui/precache-manifest.7ac551ae4d136aa329bb80ae1c152eaa.js",
+    "precache-manifest.6b8be33a4d82c328a64163d019c6ed25.js": "/ulternative-ui/precache-manifest.6b8be33a4d82c328a64163d019c6ed25.js",
     "service-worker.js": "/ulternative-ui/service-worker.js",
-    "static/css/2.9ff99f11.chunk.css.map": "/ulternative-ui/static/css/2.9ff99f11.chunk.css.map",
-    "static/css/main.e383733e.chunk.css.map": "/ulternative-ui/static/css/main.e383733e.chunk.css.map",
-    "static/js/2.525f487a.chunk.js.LICENSE": "/ulternative-ui/static/js/2.525f487a.chunk.js.LICENSE",
+    "static/css/2.11829350.chunk.css.map": "/ulternative-ui/static/css/2.11829350.chunk.css.map",
+    "static/css/main.dad7674a.chunk.css.map": "/ulternative-ui/static/css/main.dad7674a.chunk.css.map",
+    "static/js/2.56d5f78f.chunk.js.LICENSE.txt": "/ulternative-ui/static/js/2.56d5f78f.chunk.js.LICENSE.txt",
     "static/media/background.jpg": "/ulternative-ui/static/media/background.9ae3568c.jpg",
     "static/media/cardImage.svg": "/ulternative-ui/static/media/cardImage.6458de00.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.16ee59b2.js",
-    "static/css/2.9ff99f11.chunk.css",
-    "static/js/2.525f487a.chunk.js",
-    "static/css/main.e383733e.chunk.css",
-    "static/js/main.280e65fe.chunk.js"
+    "static/js/runtime-main.809aa076.js",
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.56d5f78f.chunk.js",
+    "static/css/main.dad7674a.chunk.css",
+    "static/js/main.dd876d6a.chunk.js"
   ]
 }
