@@ -16,16 +16,16 @@ const Footer = () => {
                        <Col>
                    <h4>Company</h4>
                    <ul>
-                       <Link  to="/ulternative-ui/"><li>Home</li></Link>
-                       <Link  to="/ulternative-ui/about"><li>About</li></Link>
-                       <Link  to="/ulternative-ui/contact"><li>Contact</li></Link>
+                       <Link  to="/"><li>Home</li></Link>
+                       <Link  to="/about"><li>About</li></Link>
+                       <Link  to="/contact"><li>Contact</li></Link>
                    </ul>
                        </Col>
                    <Col>
                     <h4>Product</h4>
                     <ul>
-                        <Link  to="/ulternative-ui/search"><li>Search</li></Link>
-                        <Link  to="/ulternative-ui/explore"><li>Explore</li></Link>
+                        <Link  to="/search"><li>Search</li></Link>
+                        <Link  to="/explore"><li>Explore</li></Link>
                     </ul>
                 </Col>
 

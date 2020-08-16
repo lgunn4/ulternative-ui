@@ -10,8 +10,8 @@ function Content() {
         <main>
             <div className='content'>
             <Switch>
-                <Route exact path="/ulternative-ui/" component={FrontPage}/>
-                <Route exact path="/ulternative-ui/explore" component={Explore}/>
+                <Route exact path="/" component={FrontPage}/>
+                <Route exact path="/explore" component={Explore}/>
             </Switch>
             </div>
         </main>
