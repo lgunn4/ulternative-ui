@@ -6,7 +6,7 @@ import {applicationDescription, applicationName} from "../../assets/constants";
 import {Link} from "react-router-dom";
 import Card from "react-bootstrap/Card"
 import FrontPageBackground from '../../assets/background.jpg';
-import CategoryCardDeck from "./CategoryCardDeck";
+import CardDeck from "../CardDeck/CardDeck";
 
 const FrontPage = ({categories}) => {
     return (
@@ -31,7 +31,7 @@ const FrontPage = ({categories}) => {
             <Jumbotron className="front-page-browse-categories">
                 <h2>Browse Categories</h2>
                 <hr/>
-                <CategoryCardDeck categories={categories} limit={4}/>
+                <CardDeck categories={categories} limit={4}/>
                 <Link to="explore"><h5>Explore More Categories</h5></Link>
             </Jumbotron>
         </div>

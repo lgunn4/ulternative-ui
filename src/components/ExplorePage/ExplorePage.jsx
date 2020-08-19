@@ -2,7 +2,7 @@ import React from 'react';
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import CategoryCardDeck from "../FrontPage/CategoryCardDeck";
+import CardDeck from "../CardDeck/CardDeck";
 
 const ExplorePage = ({categories}) => {
 
@@ -12,9 +12,9 @@ const ExplorePage = ({categories}) => {
                 <Col lg="10">
                     <h1>{`Explore categories`}</h1>
                     <hr />
-                    <CategoryCardDeck categories={categories} limit={null}/>
                 </Col>
             </Row>
+            <CardDeck categories={categories} limit={null}/>
         </Jumbotron>
     );
 };

@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Route, Switch} from "react-router-dom";
 import FrontPage from "./containers/FrontPage";
 import Explore from "./containers/Explore";
+import Category from "./containers/Category";
 
 function Content() {
     return (
@@ -12,6 +13,7 @@ function Content() {
             <Switch>
                 <Route exact path="/" component={FrontPage}/>
                 <Route exact path="/explore" component={Explore}/>
+                <Route exact path="/category/:id" component={Category} />
             </Switch>
             </div>
         </main>
