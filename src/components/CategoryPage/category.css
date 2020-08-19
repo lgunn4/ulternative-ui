@@ -1,0 +1,20 @@
+.category-image img{
+    width: 100%;
+}
+
+.category-description p{
+   margin: 1.25rem;
+    padding: 0;
+}
+
+.card-deck {
+    padding-top:0
+}
+
+h5 {
+    text-align: center;
+    margin-top: 8vh;
+}
+h1 {
+    margin-bottom: 8vh;
+}

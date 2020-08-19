@@ -6,7 +6,7 @@ import "./card.css";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 
-const CategoryCardDeck = ({categories, limit}) => {
+const CardDeck = ({categories, limit}) => {
     categories = limit === null ? categories : categories.slice(0, limit);
     const categoryCards = categories.map(category => {
         return (
@@ -30,10 +30,10 @@ const CategoryCardDeck = ({categories, limit}) => {
     });
 
     return (
-            <Row>
+            <Row className="card-deck">
                 {categoryCards}
             </Row>
     )
 };
 
-export default CategoryCardDeck;
+export default CardDeck;
